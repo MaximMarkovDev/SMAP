@@ -1,0 +1,7 @@
+Style/Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
+AllCops:
+  Exclude:
+    - './spec/spec_helper.rb'
